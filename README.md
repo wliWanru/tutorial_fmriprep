@@ -1,3 +1,5 @@
+这是前几年做核磁项目时写的一个小教程，主要是为了自己以后还能记得怎么配环境。。。
+
 # 配置fmriprep运行环境
 fmriprep官网推荐使用docker来配置fmriprep运行的环境，而不是使用Python分别配置其依赖包。
 docker跟pipy类似，都是托管源代码的平台，但docker里面提供的“包”封装程度更高，这些包基本上都是能通过简单参数设置直接run的。docker里提供的包叫做image，fmriprep就是docker平台的一个image。
